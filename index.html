@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Explorer Menu - CSS Pseudo-Classes Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+  <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #fff;
+        }
+
+        .tutorial-section {
+            background: #162447;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .nav-menu {
+            background: #1f4068;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .nav-menu.demo a {
+            display: block;
+            padding: 10px;
+            margin: 5px;
+            background: #e43f5a;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-menu.demo a:first-child {
+            background: #4ecca3;
+        }
+
+        .nav-menu.demo a:last-child {
+            background: #7579e7;
+        }
+
+        .nav-menu.demo a:nth-child(2) {
+            background: #ffd369;
+            color: #000;
+        }
+
+        .nav-menu.demo a:hover {
+            background: #ff6b6b;
+            transform: translateX(10px);
+        }
+
+        .nav-menu.demo a:active {
+            background: #c92a42 !important;
+        }
+
+        .nav-menu.practice a {
+            display: block;
+            padding: 10px;
+            margin: 5px;
+            background: #f5f5f5;
+            color: #000;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        code {
+            background: #2d3436;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #74b9ff;
+        }
+
+        .exercise, .task-list {
+            background: #2c3e50;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .task-list li {
+            margin: 10px 0;
+        }
+
+        .code-template {
+            background: #2d3436;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-family: monospace;
+            white-space: pre;
+        }
+
+        .important-note {
+            background: #e74c3c;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+  </style>
+  </head>
+  <body>
+  <nav class="nav-menu demo">
+            <a href="#">Mission Control</a>
+            <a href="#">Launch Pad</a>
+            <a href="#">Space Station</a>
+            <a href="#">Mars Colony</a>
+            <a href="#">Deep Space</a>
+        </nav>
+  </body>
+</html>
